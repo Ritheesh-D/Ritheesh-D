@@ -1,0 +1,9 @@
+include<stduo.h>
+#include<math.h>
+void main() 
+{ 
+int a=50525; 
+int b=40399,sum; 
+sum=a+b; 
+printf("the number of copies published=%d",sum);
+}
