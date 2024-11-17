@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<math.h>
+
+int main()
+{
+    int p,r,n,t,x,y,z,A,com;
+    printf("\n enter the initial amount p:");
+    scanf("%d",&p);
+    printf("\n enter the rate of interest r:");
+    scanf("%d",&r);
+    printf("\n enter the time section n:");
+    scanf("%d",&n);
+    printf("\n enter the time period t:");
+    scanf("%d",&t);
+    x=r/100/n;
+    y=1+x;
+    z=pow(y,n*t);
+    A=p*z;
+    com=A-p;
+    printf("\n the value of A :%d",A);
+    printf("\n the compound interest =%d");
+
+    
+    
+    return 0;
+}   
+    
