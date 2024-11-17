@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    int a,pi,r,c;
+    printf("Enter r:\n");
+    scanf("%d",&r);
+    a=3.14*pow(r,2);
+    c=2*3.14*r;
+    printf("AREA :%d\n",a);
+    printf("CIRCUMFRENCE :%d\n",c);
+}
