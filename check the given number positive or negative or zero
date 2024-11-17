@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    int i;
+    printf("enter:");
+    scanf("%d",&i);
+    if(i>0)
+    {
+        printf("positive");
+    }
+    else if(i<0){
+    printf("negative");    
+    }
+    else{
+        printf("zero");
+    }
+    return 0;
+}
