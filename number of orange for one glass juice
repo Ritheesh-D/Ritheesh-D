@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <string.h>
+void main()
+{
+    int x,y,z;
+    printf("the number of orange=\n");
+    scanf("%d",&x);
+    printf("number of orange for one glass=\n");
+    scanf("%d",&y);
+    z=x/y;
+    printf("the number of oranges=%d",z);
+    
+    
+  
+ return 0;   
+    
+}
