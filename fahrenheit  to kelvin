@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    int fahrenheit,kelvin,A;
+    printf("Ritheesh.D");
+    printf("Enter fahrenheit :\n");
+    scanf("%d",&fahrenheit);
+    A=(fahrenheit-32)*5/9;
+    kelvin=A+273.15;
+    printf("KELVIN :%dK",kelvin);
+    
+}
+
