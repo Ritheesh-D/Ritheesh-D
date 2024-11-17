@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+void main()
+{
+    int x,y,z,num=0;
+    printf("the value of x:\n");
+    scanf("%d",&x);
+    printf("the value of y:\n");
+    scanf("%d",&y);
+    printf("the value of z:\n");
+    scanf("%d",&z);
+    num=x+y+z;
+    printf("num=%d",num);
+    
+}
+
