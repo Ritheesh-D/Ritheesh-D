@@ -7,6 +7,7 @@ void main()
     scanf("%d",&x);
     printf("the numer of row =\n");
     scanf("%d",&y);
-    printf("the number seats in one  ")
+    z=x/y;
+    printf("the number seats in one = %d",z);
     
 }
