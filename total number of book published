@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+    int a,b;
+    a=50,525;
+    b=40,399;
+    printf("first edition of copies sold = 50,525\n");
+    printf("second edition of copies sold= 40,399\n");
+    printf("total number of copies sold=",a+b);
+}
