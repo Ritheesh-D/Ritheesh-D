@@ -1,0 +1,16 @@
+#include<stdio.h>
+void main()
+{
+    int a;
+    printf("enter your mark:");
+    scanf("%d",&a);
+    if (a>49)
+    {
+        printf("passed");
+    }
+    else
+    {
+        printf("failed");
+    }
+}
+
