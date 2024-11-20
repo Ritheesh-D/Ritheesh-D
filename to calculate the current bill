@@ -1,0 +1,20 @@
+#include<stdio.h>
+void main()
+{
+   int x,y,z,sum;
+   printf("enter the unit :");
+   scanf("%d",&x);
+   if(x<=100)
+   {
+   sum=x*1;
+   }
+   else if(x<200)
+   {
+   sum=100+(x-100)*1.5;
+   }
+   else
+   {
+       sum=100+(100*1.5)+(x-200)*2;
+   }
+   printf("the bill is:%d",sum);
+}
