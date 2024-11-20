@@ -1,0 +1,19 @@
+#include<stdio.h>
+void main()
+{
+    char r,y,g,n;
+    printf("enter the signal");
+    scanf("%c",&n);
+    switch(n)
+    {
+        case 'r':
+          printf("stop");
+          break;
+        case 'y':
+          printf("get ready");
+          break;
+        case 'g':
+          printf("go");
+          break;
+    }
+}
