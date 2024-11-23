@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+    int num,dig,p,temp,sum=0;
+    printf("\nenter the nember = ");
+    scanf("%d",&num);
+    printf("\nenter the power = ");
+    scanf("%d",&p);
+    temp=num;
+    while(temp!=0)
+    {
+        dig=num%10;
+        sum=pow(dig,p);
+        temp/=10;
+    }
+    printf("the sum of the digits of %d raised to the power %d is =%d\n",num,p,
+              sum);
+    return 0;
+}
