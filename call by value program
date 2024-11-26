@@ -1,0 +1,17 @@
+#include <stdio.h>
+void swap(int,int);
+void main()
+{
+    int a=14,b=11;
+    printf("this program for call by value ");
+    printf("\n swaping the number %d , %d ",a,b);
+    swap(a,b);
+    printf("\n swaping the number %d , %d ",a,b);
+}
+void swap(int a,int b)
+{
+    int temp;
+    temp=a;
+    a=b;
+    b=temp;
+}
