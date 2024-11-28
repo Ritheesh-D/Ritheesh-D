@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <string.h>
+void main()
+{
+    int i=0;
+    char a[10];
+    printf("Enter the character : ");
+    scanf("%s",&a);
+    while (a[i]!='\0')
+    {
+        if(a[i]>='a'&&a[i]<='z')
+        {
+            a[i]-=32;
+        }
+        i++;
+    }
+    printf("uppercase  %s :",a);
+}
