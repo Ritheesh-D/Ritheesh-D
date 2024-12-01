@@ -1,0 +1,36 @@
+#include <stdio.h>
+int main() {
+    int arr[] = {64, 34, 25, 12, 22, 11, 90};
+    int n = sizeof(arr) / sizeof(arr[0]);
+    int i, temp, swapped;
+
+    printf("Original array: \n");
+    for (i = 0; i < n; i++) {
+        printf("%d ", arr[i]);
+    }
+    printf("\n");
+    while (n > 1) {
+        swapped = 0;
+        i = 0;
+        while (i<n-1) {
+            if (arr[i]>arr[i+1]) {
+    
+                temp = arr[i];
+                arr[i] = arr[i + 1];
+                arr[i + 1] = temp;
+                swapped = 1;
+            }
+            i++;
+        }
+        if (swapped == 0) {
+            break;
+        }
+        n--;
+    }
+    printf("Sorted array: \n");
+    for (i=0;i<sizeof(arr)/ sizeof(arr[0]);i++) {
+        printf("%d ", arr[i]);
+    }
+    printf("\n");
+    return 0;
+}
